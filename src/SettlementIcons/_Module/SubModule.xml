@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+  <Name value="Settlement Icons (End's Update)" />
+  <Id value="$modulename$" />
+  <Version value="v$version$" />
+  <Official value="false" />
+  <DefaultModule value="false" />
+  <SingleplayerModule value="true" />
+  <MultiplayerModule value="false" />
+  <Url value="https://www.nexusmods.com/mountandblade2bannerlord/mods/2764" />
+  <DependedModules>
+    <DependedModule Id="Bannerlord.Harmony" order="LoadBeforeThis" />
+    <DependedModule Id="Bannerlord.UIExtenderEx" order="LoadBeforeThis" />
+    <DependedModule Id="Native" order="LoadBeforeThis" />
+    <DependedModule Id="SandBoxCore" order="LoadBeforeThis" />
+    <DependedModule Id="Sandbox" order="LoadBeforeThis" />
+    <DependedModule Id="StoryMode" order="LoadBeforeThis" />
+    <DependedModule Id="CustomBattle" order="LoadBeforeThis" />
+  </DependedModules>
+  <SubModules>
+    <SubModule>
+      <Name value="$modulename$" />
+      <DLLName value="$modulename$.dll" />
+      <SubModuleClassType value="$modulename$.SubModule" />
+      <Tags />
+    </SubModule>
+  </SubModules>
+</Module>
